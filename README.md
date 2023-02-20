@@ -28,7 +28,7 @@ An Express server is maintaining a Socket.io connection, persisting data short-t
 npm start
 ```
 
-> Server is running on `localhost:5000`.
+> Server is running on `localhost8000`.
 
 ### Start client
 

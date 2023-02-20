@@ -14,7 +14,7 @@ const server: http.Server = http.createServer(app)
 const io: socketio.Server = new socketio.Server(server, {
   cors: {
     origin: CLIENT_HOST,
-    credentials: true,
+    credentials: true
   },
 })
 
@@ -126,5 +126,5 @@ app.set('port', PORT)
 
 // Start server
 server.listen(PORT, () => {
-  console.log('listening on *:5000')
+  console.log('listening on *:8000')
 })
